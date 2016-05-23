@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Portfolio of Miomi">
+    <meta name="author" content="Miomi_Liu">
+
+    <title>Miomi.me - Blog - 通过命令地图改善命令选择</title>
+     <!-- ico -->
+    <link rel="icon" href="img/favicon.ico" mce_href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" mce_href="img/favicon.ico" type="image/x-icon">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="active"><a href="blog.html">Blog</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="cv.html">Resume</a></li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Section: about -->
+   <section id="about" class="home-section text-center blog">
+        <div class="container pre">
+            <div id="before" class="wow bounceInLeft" data-wow-delay="0.8s">
+                <a href="blog-text2.html" id="totop" class="btn btn-before">
+                    <i class="fa fa-angle-left animated"></i>
+                </a>
+             </div>
+             <div id="next" class="wow bounceInRight" data-wow-delay="0.8s">
+                <a href="blog-text4.html" id="totop" class="btn btn-next">
+                    <i class="fa fa-angle-right animated"></i>
+                </a>
+             </div>
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="blog-item">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-2">
+                            <div class="date-wrap">
+                                <span class="date">10</span>
+                                <span class="month">April</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-sm-10">
+                            <div class="blog-img">
+                                <img src="img/blog/img3.jpg" alt=""/>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-2 text-right">
+                            <ul class="list-unstyled">
+                                <li><a ><em>life</em></a></li>
+                                <li><a ><em>tour</em></a></li>
+                                <li><a ><em>thinking</em></a></li>
+                            </ul>
+                        </div>
+                        <div class="txt col-lg-10 col-sm-10 text-left">
+                            <h3>【译】通过“命令地图”改善命令选择 </h3>
+                            <div class="reference">
+                                <h5>论文题目：Improving Command Selection with CommandMaps</h5>
+                                <h5>作者：Joey Scarr, Andy Cockburn, Carl Gutwin, Andrea Bunt</h5>
+                                <h5>来源：CHI 2012, May 5–10, 2012, Austin, Texas, USA</h5>
+                            </div>
+                            <p>本文提出了提出了使用空间记忆与层级扁平化相结合的提高GUI绩效的方法。我们（作者）通过设计一种叫做“命令地图”的命令选择界面，并分析其理论性能特性证实了这个框架。然后，研究者在新手用户及专家用户中评测了“命令地图”、菜单和微软的Ribbon界面。结果表明，对于新手用户，“命令地图”相对于传统界面并没有显著的差异，而专家用户在操作“命令地图”时速度较于传统界面有显著的提升。</p>
+                            <p>GUI设计人员由于屏幕空间的限制，通常需要使用菜单等层次结构的命令。然而层级组织结构经常被认为减慢了专家用户的操作。本文中，我们探索利用空间记忆作为可取代层级选择技术的快速检索机制，这种空间记忆可以适应GUI系统的整体外观和表现风格。基于空间记忆，我们开发了一个名为CommandMaps（CMs）技术。CMs有两个主要特性：它们一次显示出所有的应用命令，并且通过保持空间稳定性促使用户对经常使用的命令建立一种空间记忆（如下图1）。</p>
+                             <img src="portfolio/text3/img1.jpg">
+                            <p>结合先前的研究结果表明，我们可以通过在一个尽量浅的层级中相对稳定的空间条目来提高专家用户的绩效。</p>
+                            <p>基于此我们进行了以下研究：</p>
+                            <h4>研究一：GUIs用户的空间知识</h4>
+                            <p>我们总体假设空间记忆能够成为命令选择界面的基础。为了检验这一假设，我们进行了一项研究去检验是否微软Word2010的有经验的用户对Ribbon界面中熟悉的命令都建立了空间知识。</p>
+                            <p>12个认为自己是Word2010的经验用户参与了实验，实验环境为安装了Win7系统，配备1600*1200分辨率显示器的PC。参加者需要完成以下三个任务：</p>
+                            <p>任务一：确定熟悉命令。</p>
+                            <p>参与者通过检查Word2010的界面原型指出哪些是他们熟悉的功能命令。</p>
+                            <p>任务二：在隐藏的功能区中确定任务一中选择的功能命令按钮的位置。</p>
+                            <p>展示给参与者在任务一中选择的命令按钮的图标及名称，然后要求参与者在完全被隐藏的功能界面中定位点击他们认为的该按钮的位置（如图2）。实验系统会记录下被试者的空间记忆中这些命令按钮的错误位置。</p>
+                            <img src="portfolio/text3/img2.jpg">
+                            <p>任务三：使用功能区中的选择命令。</p>
+                            <p>参与者需要在功能界面中找出命令按钮。参与者点击功能标签，标签显示出来，直到参与者选择到正确地命令按钮结束任务。系统将记录下标签切换次数及点击次数。</p>
+                            <p>参与者完成了任务一后，对其选定的每个任务交替完成任务二和任务三。命令以随机顺序显示，每个命令显示两次。</p>
+                            <p>结果：</p>
+                            <p>熟悉命令的数量。总体而言参与者选择了59.6个熟悉命令。许多参与者会选择所有他们曾经使用过的命令，而不是他们熟悉的经常使用的命令。</p>
+                            <p>空白功能区内的误差距离。参与者点击空白功能区内的位置与正确功能按钮中心距离平均偏差为147像素。然而，其中有几个异常值（见图3），这表明一些命令并不是参与者所熟知的。中位误差值为92像素，在实验显示器上大概有2.5cm的距离。图三展示了错误距离分布</p>
+                             <img src="portfolio/text3/img3.jpg">
+                            <p>选择标签数量。当选择可见的功能标签时，参与者经常在一个选项标签中寻找命令按钮。然而，在28%的试验中需要超过一个标签的选择，选择到正确命令的整体平均次数为1.95。</p>
+                            <p>这些结果为我们提供了两个主要结论。首先，人们在图形用户界面对很多命令位置有一个良好的空间位置记忆；其次，人们知道他们熟悉的大多数命令的选项卡标签，但是也有28%的命令他们需要进行多次选择找到正确地选项卡标签。</p>
+                            <h4>研究二：专家用户使用CMs</h4>
+                            <p>研究二和三比较了新手用户及专家用户使用CMs、功能区和菜单是的表现。研究四比较了用户在两个允许窗口几何操作的CM的变体设计中的表现。所有参与者在单独的一小时内完成研究二到四。</p>
+                            <p>步骤：</p>
+                            <p>所有参与者使用三个界面完成任务：一个模拟真实地功能区界面、菜单和CMs。在菜单中，采用7个顶层菜单配套功能区的标签，包含每个标签内的每个命令条目，以及类似的组间分离。实验形成了三套命令目标，每个由分布在三个不同标签的六条命令组成：三个在Home标签下，两个在插入标签下，一个在视图标签下。每个参与者在一个界面中使用同样的指令集，然后在接下来的界面中使用不同的指令集。命令集的顺序由拉丁方来平衡。</p>
+                            <p>熟悉模块包括30次实验，每组5个选项，共六组任务目标。而性能模块包括90次实验，同样任务目标包括15个选项。选择顺序是随机的，指导符合我们的约束条件，即当使用功能区的时候有50%的可能涉及标签切换。</p>
+                            <p>参与者使用每个界面完成NASA-TLX的表单，在实验最后排序三个界面的偏好顺序。</p>
+                            <p>结果：</p>
+                            <p>CMs的界面采集时间比功能区快25%比菜单快34%。如图5a所示，CMs和功能区在同样地任务中表现相似，而在不同父标签任务中CMs相对较快。在不同父标签任务中，功能区的功能交叉性使其比菜单的表现更差。</p>
+                            <p>CMs的出错率比功能区和菜单都要低，通过5b可以看出，CMs的错误率是相对不受父标签任务影响的，而功能区和菜单在有不同的父标签任务中要高得多。用户反馈更倾向于CMs，被试中有14人选择最喜欢CMs，2个选择最喜欢功能区，2个最喜欢菜单。</p>
+                            <h4>研究三：新手用户使用CMs</h4>
+                            <p>创建每组24个条目的五组（动物，卡通人物，食品，办公用品，体育）数据。仅仅动物、食物、运动项目被用作目标。</p>
+                            <p>任务界面与研究二中的使用方法相同，任务被试在每个界面中完成24个任务。包括在三个不同的群体中选择八个不同的目标。任务呈现的顺序控制有一半的任务涉及切换父组。</p>
+                            <p>结果：</p>
+                            <p>CMs和功能区的平均采集时间相似，但菜单较慢。在相同父组任务中，功能区稍快于CMs，但在不同父组的任务中，CMs稍快于功能区。错误率为CMs2.8%,功能区6.6%，菜单16%。</p>
+                            <p>在新手用户中，CMs和功能区表现相似，但都比菜单要好。</p>
+                            <h4>研究四：CMs的窗口几何布局</h4>
+                            <p>研究二、三中使用大量的静态窗口，但实际部署中需要窗口位置和大小适应变化。下述实验对比了采用基于窗口范围内缩放及使用弹出窗口两种方式，以应对几何形状的操控反应问题。</p>
+                            <p>实验任务为选择研究二种的同样6个目标，被试在缩放窗口和弹出窗口中都选择36次。六个目标重复进行两次，每个目标都要在三种尺寸（Full,50%,25%）的窗口大小中进行。两次选择前后使用不同窗口大小。</p>
+                            <p>结果:</p>
+                            <p>弹出窗口比缩放快很多，扩展缩放窗口的稳定性明显低于弹出窗口。这表明缩放窗口尺寸之间的过度突变会显著损害界面表现性能。</p>
+                            <h4>总结：</h4>
+                            <p>实验发现，对于新手用户来说，CMs和标准的GUI技术之间没有整体显著差异，说明空间记忆方法没有施加给新手用户使用的额外负担。而当用户积累了较多的使用经验后，用户更倾向于使用CMs。由于功能区界面的父级开关性能交叉效应使得CMs选择明显需要较少的时间，它比菜单快34%比Ribbons快25%，此外，使用CMs的出错率是其他界面的十分之一。</p>
+                            <p>这些结果表明，空间记忆可以成功地运用在GUI界面命令选择机制中，并且UI设计人员可以使用将基于空间记忆的CMs实例应用于设计之中来显著性的提高专家用户的绩效上限。</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="comments">
+                        <div class="section-heading">
+                             <h3>To Say</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-lg-offset-5">
+                                <hr class="marginbot-20">
+                            </div>
+                        </div>
+                        <!-- 多说评论框 start -->
+                        <div class="ds-thread" data-thread-key="text3" data-title="基于命令地图改善命令选择" data-url="http://miomi.me/blog-text3.html"></div>
+                        <!-- 多说评论框 end -->
+                        <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+                        <script type="text/javascript">
+                        var duoshuoQuery = {short_name:"miomi"};
+                            (function() {
+                                var ds = document.createElement('script');
+                                ds.type = 'text/javascript';ds.async = true;
+                                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                                ds.charset = 'UTF-8';
+                                (document.getElementsByTagName('head')[0] 
+                                 || document.getElementsByTagName('body')[0]).appendChild(ds);
+                            })();
+                        </script>
+                        <!-- 多说公共JS代码 end -->
+                    </div>      
+            </div>
+        </div>
+    </section>
+    <!-- /Section: about -->
+    
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="wow shake" data-wow-delay="0.4s">
+                    <div class="page-scroll marginbot-30">
+                        <a href="#" id="totop" class="btn btn-circle">
+                            <i class="fa fa-angle-double-up animated"></i>
+                        </a>
+                    </div>
+                    </div>
+                    <p>&copy;Copyright 2015 - Miomi All rights reserved.</p>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/circles.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
