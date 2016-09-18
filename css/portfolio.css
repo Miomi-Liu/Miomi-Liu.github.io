@@ -384,7 +384,7 @@ hr {
 }
 
 .avatar {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .team-social {
@@ -506,7 +506,44 @@ hr {
 .comments{
   margin-top:0px;
 }
+ul#filters {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0 30px 0;
+}
+ul#filters li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+ul#filters li a {
+    background: #E2E0E1;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #7D797A;
+    outline: none;
+   
+    transition-duration: 500ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -moz-transition-duration: 500ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+}
 
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #435b60;
+}
+
+::selection {
+    background: #25dcca;
+    color: #fff;
+}
 /* ===========================
 --- Sider
 ============================ */
